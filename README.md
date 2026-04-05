@@ -1,16 +1,86 @@
-# React + Vite
+# 📝 To-do App Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To-do App Pro là một ứng dụng quản lý công việc đơn giản được xây dựng bằng **React + Vite**.  
+Dự án giúp người dùng theo dõi và quản lý các công việc hằng ngày một cách dễ dàng.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Demo
+(Thêm sau khi deploy)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tính năng chính
 
-## Expanding the ESLint configuration
+- ➕ Thêm công việc mới
+- ✏️ Chỉnh sửa nội dung công việc
+- ❌ Xóa công việc
+- ✅ Đánh dấu hoàn thành
+- 🔍 Tìm kiếm công việc
+- 🎯 Lọc theo trạng thái (All / Active / Completed)
+- 💾 Lưu dữ liệu bằng LocalStorage (không mất khi reload)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Công nghệ sử dụng
+
+- ⚛️ React
+- ⚡ Vite
+- 🟨 JavaScript (ES6+)
+- 🎨 CSS
+- 🟩 Node.js (môi trường chạy)
+- 🔧 Git & GitHub
+
+---
+
+## 📂 Cấu trúc project
+
+src/
+  components/
+    Header.jsx
+    TaskForm.jsx
+    TaskList.jsx
+    TaskItem.jsx
+    FilterBar.jsx
+    SearchBar.jsx
+App.jsx
+main.jsx
+
+---
+
+## ⚙️ Cài đặt và chạy project
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/DangHoangTrucVy/todo-app-pro.git
+cd todo-app-proy
+```
+
+### 2. Cài đặt dêpndencies
+npm install
+
+### 3. Chạy project
+npm run dev --> http://localhost:5173
+
+---
+
+📈 Hướng phát triển trong tương lai
+🌙 Dark mode
+📅 Thêm deadline cho task
+🔄 Drag & drop task
+🔗 Kết nối API (Node.js backend)
+🔐 Đăng nhập / đăng ký (Authentication)
+
+---
+
+📸 Screenshot
+
+(Sẽ cập nhật sau)
+
+---
+
+👤 Tác giả
+Dang Hoang Truc Vy
+GitHub: https://github.com/DangHoangTrucVy
+
