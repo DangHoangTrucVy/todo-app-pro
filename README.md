@@ -65,22 +65,22 @@ npm run dev --> http://localhost:5173
 
 ---
 
-📈 Hướng phát triển trong tương lai
-🌙 Dark mode
-📅 Thêm deadline cho task
-🔄 Drag & drop task
-🔗 Kết nối API (Node.js backend)
-🔐 Đăng nhập / đăng ký (Authentication)
+## 📈 Hướng phát triển trong tương lai
+### 🌙 Dark mode
+### 📅 Thêm deadline cho task
+### 🔄 Drag & drop task
+### 🔗 Kết nối API (Node.js backend)
+### 🔐 Đăng nhập / đăng ký (Authentication)
 
 ---
 
-📸 Screenshot
+## 📸 Screenshot
 
 (Sẽ cập nhật sau)
 
 ---
 
-👤 Tác giả
-Dang Hoang Truc Vy
-GitHub: https://github.com/DangHoangTrucVy
+## 👤 Tác giả
+### Dang Hoang Truc Vy
+### GitHub: https://github.com/DangHoangTrucVy
 
