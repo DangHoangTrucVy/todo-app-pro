@@ -34,7 +34,7 @@ function TaskForm({ addTask, editingTask, updateTask, cancelEdit }) {
         onChange={(e) => setInput(e.target.value)}
       />
 
-      <button type="submit">
+      <button type="submit" className="primary-btn">
         {editingTask ? "Cập nhật" : "Thêm"}
       </button>
 

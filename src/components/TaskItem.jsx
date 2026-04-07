@@ -16,7 +16,9 @@ const TaskItem = ({ task, toggleTask, deleteTask, startEditTask }) => {
       </div>
 
       <div className="task-actions">
-        <button onClick={() => startEditTask(task)}>Sửa</button>
+        <button className="edit-btn" onClick={() => startEditTask(task)}>
+          Sửa
+        </button>
         <button className="delete-btn" onClick={() => deleteTask(task.id)}>
           Xóa
         </button>
