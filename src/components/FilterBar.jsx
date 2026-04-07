@@ -5,21 +5,21 @@ function FilterBar({ filter, setFilter }) {
         className={filter === "all" ? "active" : ""}
         onClick={() => setFilter("all")}
       >
-        All
+        Tất cả
       </button>
 
       <button
         className={filter === "active" ? "active" : ""}
         onClick={() => setFilter("active")}
       >
-        Active
+        Đang làm
       </button>
 
       <button
         className={filter === "completed" ? "active" : ""}
         onClick={() => setFilter("completed")}
       >
-        Completed
+        Đã hoàn thành
       </button>
     </div>
   );

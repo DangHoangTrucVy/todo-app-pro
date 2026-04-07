@@ -6,22 +6,56 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #f5f7fb;
-  color: #222;
+   color: #393939;
+  position: relative;
+  min-height: 100vh;
 }
 
+/* nền ảnh */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background: url("https://marketplace.canva.com/EAFXobSyaTs/3/0/800w/canva-black-grey-neutral-aesthetic-minimal-modern-collage-desktop-wallpaper-PgYCPAzedtk.jpg")
+    center / cover no-repeat;
+
+  filter: blur(20px);
+  transform: scale(1.1);
+
+  z-index: -2;
+}
+
+/* ảnh chính rõ */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background: url("https://marketplace.canva.com/EAFXobSyaTs/3/0/800w/canva-black-grey-neutral-aesthetic-minimal-modern-collage-desktop-wallpaper-PgYCPAzedtk.jpg")
+    center / contain no-repeat;
+
+    filter: blur(5px);
+  z-index: -1;
+}
 .app {
   min-height: 100vh;
   padding: 40px 16px;
 }
 
 .container {
-  max-width: 760px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  max-width: 550px;
   margin: 0 auto;
-  background: #fff;
   padding: 28px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .header {
@@ -31,11 +65,12 @@ body {
 
 .header h1 {
   margin-bottom: 8px;
-  font-size: 32px;
+  font-size: 42px;
+  color: white;
 }
 
 .header p {
-  color: #666;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .task-form {
@@ -57,7 +92,7 @@ body {
 
 .task-form input:focus,
 .search-bar input:focus {
-  border-color: #2563eb;
+  border-color: #000000;
 }
 
 .primary-btn,
@@ -73,7 +108,7 @@ body {
 }
 
 .primary-btn {
-  background: #2563eb;
+  background: #000000;
   color: white;
 }
 
@@ -100,6 +135,7 @@ body {
   gap: 10px;
   margin-bottom: 20px;
   flex-wrap: wrap;
+ 
 }
 
 .filter-bar button {
@@ -107,7 +143,7 @@ body {
 }
 
 .filter-bar .active {
-  background: #2563eb;
+  background: #000000;
   color: white;
 }
 
@@ -156,7 +192,7 @@ body {
 }
 
 .delete-btn {
-  background: #ef4444;
+  background: #000000;
   color: white;
 }
 
