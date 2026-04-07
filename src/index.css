@@ -37,3 +37,85 @@ body {
 .header p {
   color: #666;
 }
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.delete-btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #ef4444;
+  color: white;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.empty {
+  text-align: center;
+  color: #666;
+  padding: 20px 0;
+}
+
+.cancel-btn {
+  background: #6b7280;
+  color: white;
+}
+
+.search-bar {
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.filter-bar button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #e5e7eb;
+  cursor: pointer;
+}
+
+.filter-bar .active {
+  background: #2563eb;
+  color: white;
+}
