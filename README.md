@@ -63,6 +63,8 @@ npm install
 ### 3. Chạy project
 npm run dev --> http://localhost:5173
 
+Link app: todo-app-pro-three.vercel.app
+
 ---
 
 ## 📈 Hướng phát triển trong tương lai
